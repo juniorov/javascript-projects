@@ -1,0 +1,9 @@
+[type="checkbox"]:checked + span.unstroke {
+    text-decoration:line-through;
+    color: red;
+}
+
+#task_text,
+[type="checkbox"] + span {
+    text-transform: capitalize;
+}

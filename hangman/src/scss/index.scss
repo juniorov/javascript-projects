@@ -1,0 +1,66 @@
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    min-height: 100vh;
+}
+
+.card {
+    max-width: 400px;
+    margin: 0 auto;
+
+    .wp-img {
+        max-height: 250px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &-body {
+        input {
+            max-width: 50px;
+        }
+    }
+
+    &-footer {
+        .alert {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.wp-letters {
+    padding: 1px;
+    min-height: 200px;
+    width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    input[type="button"] {
+        width: 40px;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+.result {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    input {
+        text-align: center;
+        width: 25px;
+        padding-left: .3rem;
+        padding-right: .3rem;
+
+        &.btn-success {
+            color: #28a745;
+            border-color: #28a745;
+            background-color: transparent;
+        }
+    }
+}
+

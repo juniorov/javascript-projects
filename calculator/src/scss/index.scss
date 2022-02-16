@@ -1,0 +1,32 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.wrap-calculator {
+    width: 200px;
+    border: 2px solid #dc3545;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.wrap-numbers {
+    margin-bottom: 10px;
+
+    a {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+#screen {
+    max-width: 100%;
+    text-align: right;
+}
+
+.reset {
+    width: 100%;
+}
+
